@@ -1,0 +1,44 @@
+.gamePage{
+    position:relative;
+    width:100%;
+    align-items: center;
+}
+
+.gamePage>nav>p{
+    font-size: 1.5em;
+}
+
+.gamePage>nav{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    position:fixed;
+    height: 84px;
+    top:0;
+    left:0;
+    right: 0;
+    background-color: rgba(225, 243, 246, 0.969);
+    z-index: 101;
+}
+
+.gamePage>main{
+    width: 100%;
+    margin:0;
+    margin-top: 84px;
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+}
+
+.noPlayers p{
+    font-size: 3em;
+}
+
+.exitGame{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.3em;
+}
+
+.gameTitle{
+    font-weight: 800;
+}

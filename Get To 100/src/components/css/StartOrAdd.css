@@ -1,0 +1,30 @@
+.startOrAdd button{
+    margin-left: 3%;
+    margin-right : 3%;
+    display: inline;
+    font-size: 1.5em !important;
+    background-color: rgba(196, 145, 200, 0.94);
+}
+
+.startOrAdd{
+    background-color: rgba(225, 243, 246, 0.972);
+    position: absolute;
+    bottom:10vh;
+    left:10vw;
+    width: 80vw;
+    height: 80vh;
+    z-index: 100;
+    box-sizing: border-box;
+    padding: 10%;
+    border-radius: 10px;
+}
+
+.startOrAdd button, div h3{
+    z-index: 101;
+}
+
+.startOrAdd h3{
+    color:rgb(43, 12, 12);
+    font-size: 3.5em;
+    margin-bottom: 10%;
+}

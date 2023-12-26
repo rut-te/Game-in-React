@@ -1,0 +1,9 @@
+.profile p{
+    display: inline;
+    font-size: xx-large;
+    margin: 2%;
+}
+
+i{
+    cursor:grab;
+}

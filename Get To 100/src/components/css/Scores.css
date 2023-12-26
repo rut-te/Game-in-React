@@ -1,0 +1,12 @@
+.scores{
+    background-color: rgba(225, 243, 246, 0.972);
+    position: absolute;
+    top:17%;
+    left:70%;
+    width: fit-content;
+    height: fit-content;
+    z-index: 100;
+    box-sizing: border-box;
+    padding: 3%;
+    border-radius: 10px;
+}

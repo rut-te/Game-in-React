@@ -1,0 +1,35 @@
+.userBoard{
+    background-color: rgba(151, 195, 216, 0.485);
+    padding: 10%;
+    border-radius: 25px;
+    padding-top: 1%;
+    position: relative;
+    max-width: fit-content;
+    min-width: 20vw;
+}
+
+.isTurn{
+    background-color: rgba(216, 151, 200, 0.485);
+    border: solid 5px rgba(151, 195, 216);
+}
+
+.userBoard nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 3px rgba(216, 151, 200);
+}
+
+.userBoard.isTurn nav{
+    border-bottom: solid 5px rgba(151, 195, 216);
+}
+
+.userBoard p{
+    font-size: larger;
+}
+
+.userBoard button{
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px  rgba(196, 145, 200, 0.577);
+    margin: 0 1%;
+}
